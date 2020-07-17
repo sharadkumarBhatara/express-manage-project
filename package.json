@@ -1,0 +1,27 @@
+{
+  "name": "sharad-practice",
+  "version": "12.0.1",
+  "description": "it for practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE-ENV= production node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sharad",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "colors": "^1.4.0",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mustache": "^4.0.1"
+  }
+}
