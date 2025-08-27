@@ -21,10 +21,7 @@ app.use(cookieParser());
 
 /*const server = http.createServer((req,res)=>{
     const {header,url,method} =req;
-    //res.setHeader('Conten-type','text/HTML');
-   /// res.setHeader('Conten-type','application/json');
-   // res.setHeader('x-powered-by','sharadBhatara');
-    //res.write(todos);
+  
    /* res.writeHead(200,{
         'content-type':'application/json',
     });
@@ -52,4 +49,5 @@ app.use(errorHandler);
 app.listen(process.env.PORT,()=>{
  console.log(`app listen at ${process.env.PORT} and env is ${process.env.NODE_ENV}`.green.bold);
 });
+
 //module.export = router;
